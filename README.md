@@ -18,7 +18,7 @@ System Features
 Code Generator for MyBatis
 -----------------------------------
 * You can find code generator from [the link](http://mybatis.github.io/generator/)
-* In the folder of mybatis-generator, you can find generator.xml and mybatis-generator-core-1.3.2.jar. 
+* In the folder of mybatis-generator, you can find generator.xml and mybatis-generator-core-1.3.5.jar. 
 * Download these two files in the folder of C:\mybatis, and run the following command:
   java -jar mybatis-generator-core-1.3.5.jar -configfile generator.xml -overwrite
 * Then Java POJOs that match the table structure will be generated.

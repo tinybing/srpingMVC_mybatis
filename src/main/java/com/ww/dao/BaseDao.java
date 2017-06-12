@@ -23,11 +23,16 @@ public abstract class BaseDao<T> implements Serializable{
         this.mapper = mapper;
     }
 
+    public T selectByPrimaryKey(String id){
+        return mapper.selectByPrimaryKey(id);
+    }
+
     public T queryData(T model) {
         return mapper.selectOne(model);
     }
 
     public List<T> queryByExample(Example example) {
+        System.out.println("====  查询  ===");
         return mapper.selectByExample(example);
     }
 

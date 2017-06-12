@@ -31,8 +31,8 @@
         <!--<table tableName="%">-->
             <!--<generatedKey column="id" sqlStatement="Mysql" identity="true"/>-->
         <!--</table>-->
-        <table tableName="dict">
-            <generatedKey column="dict_id" sqlStatement="Mysql" identity="true"/>
+        <table tableName="quartztask">
+            <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
     </context>
 </generatorConfiguration>

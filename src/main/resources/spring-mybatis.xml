@@ -84,10 +84,6 @@ http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
 		<constructor-arg index="0" ref="sqlSessionFactory" />
 	</bean>
 
-	<bean id="sqlMapper" class="com.ww.mapper.SqlMapper" scope="prototype">
-		<constructor-arg ref="sqlSession"/>
-	</bean>
-
 
 	<!-- 配置Mapper<T> -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
